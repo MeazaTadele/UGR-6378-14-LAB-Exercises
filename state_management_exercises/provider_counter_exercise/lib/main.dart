@@ -10,7 +10,7 @@ class Counter with ChangeNotifier {
 
   void increment() {
     _count++;
-    notifyListeners(); // Notify listeners that the data has changed
+    notifyListeners();
   }
 
   void decrement() {
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context) => Counter(), // Provide an instance of Counter
+      create: (context) => Counter(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Counter App',
