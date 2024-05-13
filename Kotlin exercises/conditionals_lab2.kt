@@ -5,11 +5,11 @@ fun main() {
 
   if (discountPercentage > maxDiscountThreshold) {
       println("Discount is too high. It has been set to the maximum allowed threshold.")
-      discountPercentage = maxDiscountThreshold // Set discount to maximum threshold if it's too high
+      discountPercentage = maxDiscountThreshold
   }
 
   val discountAmount = originalPrice * discountPercentage
-  val finalPrice = originalPrice - discountAmount // Calculate final price after discount
+  val finalPrice = originalPrice - discountAmount
 
   println("Original Price: $$originalPrice")
   println("Discount Percentage: ${discountPercentage * 100}%")
