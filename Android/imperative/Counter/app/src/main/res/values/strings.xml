@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">XMLCounter</string>
+    <string name="_0">0</string>
+    <string name="increment">Increment</string>
+    <string name="reset">Reset</string>
+    <string name="decrement">Decrement</string>
+</resources>
